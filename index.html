@@ -1,0 +1,72 @@
+<html>
+<head>
+    <title>ConqueCraft Network</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="index.css">
+    <script src="homepage.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="beck.png" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rules.html">Rules</a></li>
+                <li><a href="Discord.html">
+                    <ion-icon name="logo-discord"></ion-icon>
+                </a></li>
+                <li><a href="store.html">
+                    <ion-icon name="bag-outline"></ion-icon>
+                </a></li>
+                <li><a href="login.html"><i class='bx bx-log-in-circle'></i></a></li>
+            </ul>
+        </div>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        
+        <div class="content">
+            <h1>JOIN <span class="auto-type"></span> NOW!!!</h1>
+            <h2>play.conquecraft.xyz</h2>
+            <p>Server dengan survival menantang karena ada banyak dungeon yang disediakan.<br> Banyak juga gamemode yang tersedia.</p>
+        </div>
+        <div class="copy-text">
+            <input type="text" value="play.conquecraft.xyz" id="myInput">
+            <button onclick="myFunction()">Copy text</button>
+            <div class="copy-text">
+            <script>
+            function myFunction() {
+
+            // Get the text field
+            var copyText = document.getElementById("myInput");
+
+            // Select the text field
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // For mobile devices
+
+            // Copy the text inside the text field
+            navigator.clipboard.writeText(copyText.value);
+
+            // Alert the copied text
+            alert("Copied the text: " + copyText.value);
+            }
+            </script>
+        </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typed = new Typed(".auto-type",{
+            strings: ["CONQUECRAFT NETWORK", ],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+
+    </script>
+
+</body>
+</html>
